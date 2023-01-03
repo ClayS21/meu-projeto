@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import Frase from './components/Frase';
 import SayMyName from './components/SayMyName';
+import List from './components/List';
 
 function App() {
   const nome = 'Cleiton'
@@ -18,7 +19,8 @@ function App() {
 
       <HelloWorld/>
       <Frase/>
-      <SayMyName nome={nome}/>
+      <SayMyName nome="Fernando"/>
+      <List marca="Ferrarin"/>
     </div>
   );
 }

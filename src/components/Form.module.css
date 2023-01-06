@@ -1,0 +1,6 @@
+form, input, button {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1em;
+    padding: 0 10px;
+    border-radius: 30px;
+}
